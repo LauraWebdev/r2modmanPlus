@@ -749,8 +749,8 @@ export default class GameManager {
 
         new Game("Spin Rhythm: XD", "SpinRhythm", "SpinRhythm",
             "Spin Rhythm", ["SpinRhythm.exe"], "SpinRhythm_Data",
-            "https://thunderstore.io/c/gloomwood/api/v1/package/", EXCLUSIONS,
-            [new StorePlatformMetadata(StorePlatform.STEAM, "1353230")], "SpinRhythm.png",
+            "https://thunderstore.io/c/srxd/api/v1/package/", EXCLUSIONS,
+            [new StorePlatformMetadata(StorePlatform.STEAM, "1058830")], "SpinRhythm.png",
             GameSelectionDisplayMode.VISIBLE, GameInstanceType.GAME, PackageLoader.BEPINEX, ["srxd"]),
     ];
 
