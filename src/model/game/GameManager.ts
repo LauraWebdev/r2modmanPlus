@@ -746,6 +746,12 @@ export default class GameManager {
             "https://thunderstore.io/c/supermarket-together/api/v1/package/", EXCLUSIONS,
             [new StorePlatformMetadata(StorePlatform.STEAM, "2709570")], "SupermarketTogether.png",
             GameSelectionDisplayMode.VISIBLE, GameInstanceType.GAME, PackageLoader.BEPINEX, [""]),
+
+        new Game("Spin Rhythm: XD", "SpinRhythm", "SpinRhythm",
+            "Spin Rhythm", ["SpinRhythm.exe"], "SpinRhythm_Data",
+            "https://thunderstore.io/c/gloomwood/api/v1/package/", EXCLUSIONS,
+            [new StorePlatformMetadata(StorePlatform.STEAM, "1353230")], "SpinRhythm.png",
+            GameSelectionDisplayMode.VISIBLE, GameInstanceType.GAME, PackageLoader.BEPINEX, ["srxd"]),
     ];
 
     static get activeGame(): Game {
